@@ -1,12 +1,27 @@
+header{
+    background-image: url(imgs/banner.jpeg);
+    display: flex;
+    justify-content: center;
+}
 header h1{
     text-shadow: 1px 1px black;
-    background-image: url(imgs/banner.jpeg);
     color: white;
 }
-header nav{
+nav{
     background-color: dodgerblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+nav a{
+    color: white;
 }
 footer h1{
     background-color: dodgerblue;
     color: white;
+    display: flex;
+    justify-content: left;
+}
+table,tr,td,th{
+    border: 1px solid black;
+    border-collapse: collapse;
 }
